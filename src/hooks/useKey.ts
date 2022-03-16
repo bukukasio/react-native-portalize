@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-interface IUseKey {
+export interface IUseKey {
   generateKey(): string;
   removeKey(key: string): void;
 }

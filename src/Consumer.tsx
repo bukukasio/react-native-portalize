@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { IProvider } from './Host';
 
-interface IConsumerProps {
+export interface IConsumerProps {
   children: React.ReactNode;
   manager: IProvider | null;
 }

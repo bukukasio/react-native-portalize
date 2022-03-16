@@ -4,7 +4,7 @@ import { View, ViewStyle } from 'react-native';
 import { useKey } from './hooks/useKey';
 import { Manager, IManagerHandles } from './Manager';
 
-interface IHostProps {
+export interface IHostProps {
   children: React.ReactNode;
   style?: ViewStyle;
 }
