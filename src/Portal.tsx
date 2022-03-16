@@ -12,3 +12,5 @@ export const Portal = ({ children }: IPortalProps): JSX.Element => (
     {(manager): JSX.Element => <Consumer manager={manager}>{children}</Consumer>}
   </Context.Consumer>
 );
+
+export default Portal;

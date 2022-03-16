@@ -94,3 +94,5 @@ export const Host = ({ children, style }: IHostProps): JSX.Element => {
     </Context.Provider>
   );
 };
+
+export default Host;
