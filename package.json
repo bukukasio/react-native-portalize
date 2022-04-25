@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib/* && npm run lint && tsc",
+    "build": "rm -rf ./lib/* && tsc",
     "prepare": "npm run build",
     "lint": "eslint 'src/**/*.ts?(x)' && prettier --list-different \"**/*.{json,md,js,jsx,ts,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{json,md,js,jsx,ts,tsx}\""
